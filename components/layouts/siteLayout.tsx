@@ -1,5 +1,11 @@
-export default function SiteLayout({ children }) {
+import GlobalNavbar from '../globalNavbar';
+
+const SiteLayout = ({ children }) => {
   return (
-    <div>{ children }</div>
+    <>
+      <GlobalNavbar />
+    </>
   )
 };
+
+export default SiteLayout;
