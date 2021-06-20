@@ -6,11 +6,6 @@ import styles from '../styles/Home.module.scss'
 
 export default function Home() {
   return (
-    <SiteLayout>
-      <Head>
-        <title>CHANGME</title>
-      </Head>
-      <h1>Homepage</h1>
-    </SiteLayout>
+    <h1>Homepage</h1>
   )
 }

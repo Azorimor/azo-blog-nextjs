@@ -5,9 +5,15 @@ import 'primereact/resources/primereact.min.css';
 import 'primeicons/primeicons.css';
 
 import { AppProps } from 'next/app'
+import React from 'react';
+import SiteLayout from '../components/layouts/siteLayout';
 
 function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+  return (
+    <SiteLayout>
+      <Component {...pageProps} />
+    </SiteLayout>
+  )
 }
 
 export default App
