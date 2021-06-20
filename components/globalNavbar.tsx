@@ -14,11 +14,7 @@ const GlobalNavbar = () => {
     }, 
     {
       label: 'Artikel',
-      command: () => {router.push('/articles')}
-    },
-    {
-      label: 'Kategorien',
-      command: () => {router.push('/categories')}
+      command: () => {router.push('/blog')}
     }
   ]
 
