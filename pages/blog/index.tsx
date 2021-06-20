@@ -1,8 +1,5 @@
 import { GetStaticProps } from "next";
-
-type Article = {
-  title: string;
-}
+import Article from "../../types/article";
 
 const Articles = ( {articles} ) => {
   return (
