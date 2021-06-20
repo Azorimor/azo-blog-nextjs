@@ -3,6 +3,7 @@ import Category from "./category";
 type Article = {
   id: number,
   slug: string,
+  title: string,
   locale: string,
   author_id: number, // TODO maybe those ids are strings (needs to be checked)
   content: string,
