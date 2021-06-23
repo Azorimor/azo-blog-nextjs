@@ -1,4 +1,4 @@
-type Author = {
+interface Author {
   id: number,
   username: string,
 }
