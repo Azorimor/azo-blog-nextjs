@@ -4,9 +4,9 @@ const SiteLayout = ({ children }) => {
   return (
     <>
       <GlobalNavbar />
-      { children }
+      {children}
     </>
-  )
+  );
 };
 
 export default SiteLayout;

@@ -1,6 +1,6 @@
 interface Author {
-  id: number,
-  username: string,
+  id: number;
+  username: string;
 }
 
 export default Author;
