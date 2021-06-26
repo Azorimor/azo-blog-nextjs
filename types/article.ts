@@ -10,6 +10,8 @@ interface Article {
   content: string,
   created_at: Date,
   updated_at: Date,
+  shortcontent: string,
+  thumbnail: string,
   categories: Category[]
 }
 

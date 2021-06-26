@@ -1,5 +1,5 @@
 import '../styles/globals.scss'
-import 'primeflex/primeflex.css';
+import 'primeflex/primeflex.scss';
 import 'primereact/resources/themes/vela-orange/theme.css';
 import 'primereact/resources/primereact.min.css';
 import 'primeicons/primeicons.css';

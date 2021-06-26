@@ -1,18 +1,24 @@
 import { GetStaticProps } from "next";
 import React from "react";
 import ArticleCard from "../../components/articles/articleCard";
+import article from "../../types/article";
 import Article from "../../types/article";
 
 const Articles = ( { articles }:{articles: Article[]} ) => {
   return (
-    <>
-    <ul>
-      {articles.map((article: Article) => (
-        <ArticleCard key={article.id} article={article}/>
-      ))}
-    </ul>
-    
-    </>
+    <div className="content-section">
+      <div className="p-grid">
+        {articles.map((article: Article) => (
+          <>
+            <div className="p-col-12 p-md-6 p-lg-3">
+              <div className="box">
+                <ArticleCard key={article.id} title={article.title}/>
+              </div>
+            </div>
+          </>
+        ))}
+      </div>
+    </div>
   )
 }
 
